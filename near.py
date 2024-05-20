@@ -5,7 +5,7 @@ import time
 
 # NEAR Mainnet RPC endpoint
 # TODO: input your NEAR Mainnet RPC here.
-near_rpc_endpoint = 'https://near.lava.build/lava-referer-bbfb8dbe-46d5-41ce-a634-d7ea02fed7bf/'
+near_rpc_endpoint = 'https://near.lava.build/lava-referer-0c0d6f69-1758-4f1c-8929-21fe0793513b/'
 
 # NEAR account ID to check balance in Hexadecimal format.
 # YOUr WALLET NEEDS SOME NEAR, OTHERWISE IT'LL RETURN ERROR!!!!!
@@ -52,7 +52,7 @@ while True:
         print("An error occurred:", e)
 
     # Generate a random delay between 60 and 90 seconds
-    random_delay = random.randint(60, 90)
+    random_delay = random.randint(20, 40)
     print(f"Waiting for {random_delay} seconds...")
     
   # Wait for the random delay before looping again
