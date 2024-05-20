@@ -5,11 +5,11 @@ import random
 
 # Ethereum mainnet RPC endpoint
 # TODO: input your Ethereum RPC here.
-rpc_endpoint = 'https://eth1.lava.build/lava-referer-bbfb8dbe-46d5-41ce-a634-d7ea02fed7bf/'
+rpc_endpoint = 'https://near.lava.build/lava-referer-0c0d6f69-1758-4f1c-8929-21fe0793513b/'
 
 # Wallet address (0x format) that we will check the balance for
 # TODO: Input your wallet address
-wallet_address = '0x76b0989Eb48E8cCc4c024564b15Cd209868a9179'
+wallet_address = '0x1122a796Fcb9d6f76926bCCC840ae858E788cd6d'
 
 # txs counter
 tx_counter = 0
@@ -51,7 +51,7 @@ while True:
         print("An error occurred:", e)
     
     # Generate a random delay between 60 and 90 seconds
-    random_delay = random.randint(60, 90)
+    random_delay = random.randint(20, 40)
     print(f"Waiting for {random_delay} seconds...")
 
     # Wait for the random delay finish before looping again
